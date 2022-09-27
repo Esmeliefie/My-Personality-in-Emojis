@@ -1,0 +1,57 @@
+html {
+    height: 100vh;
+    font-family: 'Cinzel', serif;
+}
+
+body {
+    padding: 10px;
+    background-color: rgb(3, 3, 3);
+}
+
+#emoji-Container {
+    margin: 40px;
+    text-align: center;
+}
+
+#emoji-Container span {
+    margin: 10px;
+    font-size: 60px;
+}
+
+
+h1 {
+    letter-spacing: 2px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+input {
+    margin: 0 auto;
+    display: block;
+    border: none;
+    height: 30px;
+    background: rgb(68, 223, 215);
+    border-radius: 6px;
+    text-align: center;
+}
+
+button {
+    font-family: Baloo;
+    background:linear-gradient(90deg, rgba(47, 212, 198, 0.548), rgba(136, 1, 136, 0.664));
+    color: whitesmoke;
+    border-radius: 6px;
+    padding: 4px 10px;
+    margin: 0 4px;
+}
+
+.buttons-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 0;
+}
+
+ button:hover {
+    background: transparent;
+    border: 2px solid;
+    border-image: linear-gradient(rgb(47, 212, 199), rgb(136, 1, 136)) 1;
+}
